@@ -160,3 +160,7 @@ sr.reveal(`.home__name, .home__info,
            .about__container .section__title-1, .about__info,
            .contact__social, .contact__data`, {origin: 'left'})
 sr.reveal(`.services__card, .projects__card `, {interval: 100})
+
+
+//!SETS THE TEXT CONTENT OF THE ELEMENT WITH ID "currentYear" TO THE CURRENT YEAR
+document.getElementById("currentYear").textContent = new Date().getFullYear();
